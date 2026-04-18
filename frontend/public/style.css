@@ -1,0 +1,253 @@
+.news_page {
+	margin-top: 50px;
+	font-family: BankGothic RUSS Medium;
+}
+
+.news_page__title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #163198;
+	margin-top: 100px;
+	font-size: 45px;
+	font-family: FreeSetC Regular, serif;
+	font-weight: 600;
+}
+
+.news_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	margin-top: 20px;
+	font-family: "Roboto", sans-serif;
+	color: #10182f;
+}
+
+.news_wrapper {
+	display: flex;
+	width: 1040px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.news {
+	align-self: flex-start;
+	position: relative;
+	min-width: 275px;
+	height: 600px;
+	margin: 1.25rem 0.75rem;
+	background: white;
+	transition: all 300ms ease-in-out;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	width: 275px;
+}
+
+.news:hover {
+	cursor: pointer;
+	box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+	transform: scale(1.025);
+}
+
+.news_header{
+  max-width: 100%;
+  height: 360px;
+}
+.news_header img {
+  position: relative;
+  height: 360px;
+  width: 100%;
+}
+
+
+
+
+.date {
+	display: flex;
+	margin-top: auto;
+}
+
+.date_text small {
+	color: #545d7a;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+li{
+  display: flex;
+}
+.news a{
+	text-decoration: none;
+}
+.news p{
+	color: #313030;
+	padding: 5px;
+	font-size: 16px;
+	margin: 0 auto;
+
+}
+.news_name{
+	color: #000;
+	padding: 10px;
+	font-size: 20px;
+	font-weight:bold
+}
+.janry{
+	color: #464646;
+	font-size: 14px;
+	padding-left: 5px;
+}
+.mark {
+    margin-right: 4px;
+    background: linear-gradient(165deg,#ffd25e 16.44%,#b59646 63.42%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.number{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 40px;
+	font-weight:bold
+}
+.foot{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 20%;
+}
+.news_header_j{
+    max-width: 100%;
+    height: 200px;
+  }
+.news_header_j img {
+    position: relative;
+    height: 200px;
+    width: 100%;
+  }
+.news_j {
+	align-self: flex-start;
+	min-width: 175px;
+	height: 260px;
+	margin: 1.25rem 0.75rem;
+	background: white;
+	transition: all 300ms ease-in-out;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	width: 200px;
+}
+.news_j:hover {
+	cursor: pointer;
+	box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+	transform: scale(1.025);
+}
+/*** COLORS ***/
+
+.search {
+
+    height: 35px;
+    width: 10%;
+    box-sizing: border-box;
+    margin: 0px 8px 7px 0px;
+    padding: 7px 9px 0px 9px;
+    border: 3px solid;
+    border-radius: 25px;
+    transition: all 200ms ease;
+    cursor: text;
+    
+    &:after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 20px;
+        right: -5px;
+        top: 21px;
+        border-radius: 3px;
+        transform: rotate(-45deg);
+        transition: all 200ms ease;
+    }
+    
+    &.active,
+    &:hover {
+        width: 400px;
+        margin-right: 0px;
+        
+        &:after {
+            height: 0px;    
+        }
+    }
+    
+    input {
+        width: 100%;
+        border: none;
+        box-sizing: border-box;
+        font-family: Helvetica;
+        font-size: 15px;
+        color: inherit;
+        background: transparent;
+        outline-width: 0px;
+    }
+}
+.block_search{
+    display: flex;
+	justify-content: center;
+}
+.media_img{
+	padding-left: 2%;
+	height: 25%;
+	width: 25%;
+}
+
+.media{
+	padding-left: 5%;
+	display: flex;
+	align-items: flex-start;
+  	flex-wrap: wrap;
+}
+.media_img img{
+	height: 100%;
+	width: 100%;
+}
+.media_name{
+	font-size: 40px;
+	font-weight:bold;
+}
+.media_str{
+	padding-bottom: 6%;
+	font-size: 20px;
+	color: #464646;
+}
+.media_info{
+	
+	padding-left: 8%;
+	font-size: 25px;
+	width: 50%;
+
+}
+.info{
+	text-align:justify;
+	padding: 2%;
+	width: 80%;
+}
+.comments{
+	width: 60%;
+}
+.addcomm{
+	width: 100%;
+}
+.addcomm textarea{
+	height: 100px;
+	width: 60%;
+	float: center;
+}
+.login{
+}
