@@ -21,6 +21,6 @@ npm run
 
 ```bash
 cd frontend
-npm install
+npm i
 npm run
 ```
